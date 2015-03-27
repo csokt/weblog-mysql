@@ -1,6 +1,6 @@
 {
   "name": "weblog-mysql",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "weblog mysql module",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/csokt/weblog-mysql/issues"
   },
-  "homepage": "https://github.com/csokt/weblog-mysql"
+  "homepage": "https://github.com/csokt/weblog-mysql",
+  "dependencies": {
+    "autobahn": "^0.9.6",
+    "ip": "^0.3.2",
+    "knex": "^0.7.6",
+    "lodash": "^3.6.0",
+    "when": "^3.7.2"
+  }
 }
