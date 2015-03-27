@@ -1,0 +1,23 @@
+{
+  "name": "weblog-mysql",
+  "version": "0.0.0",
+  "description": "weblog mysql module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csokt/weblog-mysql.git"
+  },
+  "keywords": [
+    "log",
+    "mysql"
+  ],
+  "author": "csokt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csokt/weblog-mysql/issues"
+  },
+  "homepage": "https://github.com/csokt/weblog-mysql"
+}
