@@ -1,6 +1,6 @@
 {
   "name": "weblog-mysql",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "weblog mysql module",
   "main": "index.js",
   "scripts": {

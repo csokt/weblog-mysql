@@ -1,7 +1,6 @@
 # weblog-mysql
 
-Examine log files, MySQL tables, MongoDB collections across different hosts in your browser.
-mysql module
+Examine log files, MySQL tables, MongoDB collections across different hosts in your browser, mysql module.
 
 ## How to use
 
