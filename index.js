@@ -31,12 +31,13 @@ var weblogMysql = function(setup) {
     })
 
     session.register(setup.topic+'.reload', function(args) {
-      var controls = args[0]
       var d = when.defer()
-  //console.log('JSON3', JSON.stringify(controls.header, null, 2));
-      var wherearr = []
+      var controls = args[0]
+//console.log('JSON3', JSON.stringify(controls.header, null, 2));
       if (controls.offset < 0) controls.offset = 0
       var table = controls.header
+      if (table.select) table.view = knex.raw(table.select).wrap('(', ') t1')
+      var wherearr = []
       wherearr.push(table.where)
       if (controls.begin)  wherearr.push(table.fields[controls.rangefield]+' >= \''+controls.begin+'\'')
       if (controls.end)    wherearr.push(table.fields[controls.rangefield]+' <= \''+controls.end+'\'')

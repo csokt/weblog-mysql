@@ -1,6 +1,6 @@
 {
   "name": "weblog-mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "weblog mysql module",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
     "autobahn": "^0.9.6",
     "ip": "^0.3.2",
     "knex": "^0.7.6",
-    "lodash": "^3.6.0",
-    "mysql": "^2.6.1",
+    "lodash": "^3.7.0",
+    "mysql": "^2.6.2",
     "when": "^3.7.2"
   }
 }
